@@ -1,6 +1,6 @@
 import React from "react";
-
-export const NAVAR = () => {
+import CartWidget from '../CartWidget'
+export const navbar = () => {
     return (
         <div class="navar">
             <nav>
@@ -13,6 +13,7 @@ export const NAVAR = () => {
                         <li>Contacto</li>
                         <li>Noticias</li>
                         <li>Tienda</li>
+                        <li><CartWidget /></li>
                     </ul>
                 </div>
             </nav> 
@@ -21,4 +22,4 @@ export const NAVAR = () => {
     );
 }
 
-export default NAVAR; 
+export default navbar; 
