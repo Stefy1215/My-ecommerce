@@ -33,8 +33,8 @@ export const ItemDetailContainer = () => {
 
     return (
      <>
-        {/* <ItemCount initial={1} stock={5} onAdd={onAdd} />
-        <ItemDetail data = {data}/> */} No esta funcionando el detalle 
+       <ItemCount initial={1} stock={5} onAdd={onAdd} />
+        <ItemDetail data = {data}/> 
      </>
         
     );
