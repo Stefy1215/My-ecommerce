@@ -6,9 +6,9 @@ import React from 'react';
 
 const Item = ({info}) => {
     return (
-        <Link to={'/detalle/${info.id}'} className='film'>
+        <Link to={'/detalle/'+ info.id} className='film'>
             <img scr={info.image}></img>
-            <p>Llaveros</p>
+            <p>{info.category}</p>
 
         </Link>
     )
