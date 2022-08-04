@@ -1,7 +1,7 @@
-import ItemDetail from "../ItemDetail";
+
 import React, {useEffect, useState} from "react";
 import { useParams } from 'react-router-dom';
-import ItemCount from '../ItemCount';
+import ItemDetail from "../ItemDetail";
 
 const films = [ 
     { id: 1, category:'llaveros', title:"Coso", image:"https://images.squarespace-cdn.com/content/v1/5efa4984f7696d2122f23acc/1610166343218-8V551Y9K56OBOZ73HFP7/Resina7.jpg?format=1000w"},
@@ -25,15 +25,8 @@ export const ItemDetailContainer = () => {
         getData.then(res => setData(res.find(film => film.id === parseInt(detalleId))));
     }, [])
  
-
-
-    const onAdd = (quantity) =>{
-        console.log(`Compraste $(quantity) unidades`)
-    }
-
     return (
      <>
-       <ItemCount initial={1} stock={5} onAdd={onAdd} />
         <ItemDetail data = {data}/> 
      </>
         

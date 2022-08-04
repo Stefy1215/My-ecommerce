@@ -3,7 +3,7 @@ import Title from '../Title';
 
 import ItemList from '../ItemList';
 import { useParams } from 'react-router-dom';
-import './ListC.css'; 
+import './listc.css'; 
 
 const films = [ 
     { id: 1, category:'llaveros', title:"Coso", image:"https://images.squarespace-cdn.com/content/v1/5efa4984f7696d2122f23acc/1610166343218-8V551Y9K56OBOZ73HFP7/Resina7.jpg?format=1000w"},
