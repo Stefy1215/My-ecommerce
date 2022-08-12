@@ -16,7 +16,7 @@ function App() {
           <Route path= '/cart' element={<ItemListConteiner />} />
            <Route path= '/Categorias/:CategoriaId' element={<ItemListConteiner />} />
            <Route path= '/sobre' element={<ItemListConteiner />} />
-          <Route path= '/detalle/:detalleId' element={<ItemDetailContainer />} />
+           <Route path= '/detalle/:detalleId' element={<ItemDetailContainer />} />
           </Routes>
        </CartProvider>
        
