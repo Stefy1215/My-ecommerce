@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Navbar from './Componentes/Navbar';
 import ItemDetailContainer from './Componentes/ItemDetailContainer';
 import ItemListConteiner from  './Componentes/ItemListConteiner';
@@ -8,18 +9,19 @@ import CartProvider from './context/CartContext';
 
 function App() {
   return (
-    <>
+    <>aaa
     <BrowserRouter>
        <CartProvider>
-       <Navbar />
+        ccc
+       {/* <Navbar />
          <Routes>
           <Route path= '/cart' element={<ItemListConteiner />} />
-           <Route path= '/Categorias/:CategoriaId' element={<ItemListConteiner />} />
+           <Route path= '/Categorias/:categoriaId' element={<ItemListConteiner />} />
            <Route path= '/sobre' element={<ItemListConteiner />} />
            <Route path= '/detalle/:detalleId' element={<ItemDetailContainer />} />
-          </Routes>
+          </Routes> */}
        </CartProvider>
-       
+       bbb
     </BrowserRouter>
      
     </>

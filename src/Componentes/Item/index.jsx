@@ -6,7 +6,7 @@ import React from 'react';
 
 const Item = ({info}) => {
 
-    const nombre = useContext(CartContext);
+    // const nombre = useContext(CartContext);
 
     return (
         <Link to={'/detalle/'+ info.id} className='film'>

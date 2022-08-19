@@ -11,7 +11,7 @@ export const navbar = () => {
                 </div>
                 <div class="opciones">
                     <ul>
-                        <li>
+                        {/* <li>
                             <NavLink classname="nav_link" to='/sobre'>Sobre nosotros</NavLink>
                         </li>
                         <li>
@@ -23,8 +23,8 @@ export const navbar = () => {
                         <li>
                             <NavLink classname="nav_link" to='/cart'>
                             <CartWidget />
-                            </NavLink>
-                        </li>
+                            </NavLink> */}
+                        {/* </li> */}
                     </ul>
                 </div>
             </nav> 
